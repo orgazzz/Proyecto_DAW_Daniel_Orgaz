@@ -1,0 +1,19 @@
+.DS_Store
+Thumbs.db
+
+# Dependencias
+/vendor/
+/node_modules/
+
+# IDE
+.vscode/
+.idea/
+
+# Entornos / secretos
+.env
+.env.*
+*.key
+*.pem
+
+# Docs generadas
+docs/phpdoc/
