@@ -4,6 +4,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   btn.addEventListener("click", () => {
     const now = new Date().toLocaleString();
-    estado.textContent = `JS funcionando. Fecha/hora: ${now}`;
+    estado.textContent = `Estado actualizado correctamente: ${now}`;
   });
 });
